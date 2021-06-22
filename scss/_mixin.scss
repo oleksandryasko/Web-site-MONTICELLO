@@ -1,0 +1,134 @@
+@mixin for_main_title {
+  font-family: "Gotham";
+  font-size: $fz-80;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+@mixin for_main_text {
+  font-family: "Gotham";
+  font-size: $fz-18;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@mixin for-nav-titles {
+  font-family: "Gotham";
+  font-size: $fz-14;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+}
+
+@mixin for-scroll-down {
+  color: white;
+  margin-bottom: 50px;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+@mixin for-block-title {
+  font-family: "Gotham";
+  font-size: $fz-44;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+
+@mixin for-inf-title {
+  font-family: "Gotham";
+  font-size: $fz-22;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+
+@mixin for-w-bodi-title {
+  font-family: "Gotham";
+  font-size: $fz-44;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+
+@mixin for-w-text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: $fz-18;
+  color: #4b5562;
+}
+
+@mixin for-btn {
+  font-family: "Gotham";
+  font-size: $fz-14;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+
+@mixin for-map-text {
+  font-family: "Open Sans italic";
+  font-size: $fz-18;
+  font-weight: 400;
+  color: #2c4058;
+}
+
+@mixin for-news-title {
+  font-family: "Open Sans Semi";
+  font-style: normal;
+  font-size: $fz-44;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+
+@mixin for-news-title-card {
+  font-family: "Open Sans Semi";
+  font-style: normal;
+  font-size: $fz-22;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+
+@mixin for-news-text {
+  font-family: "Open Sans Semi";
+  font-size: $fz-18;
+  font-weight: 400;
+  color: #4b5562;
+}
+
+@mixin for-news-autor-name {
+  font-family: "Gotham";
+  font-size: $fz-18;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+
+@mixin for-autor-date {
+  font-family: "Gotham";
+  font-size: $fz-14;
+  font-weight: 400;
+  color: #55b7ff;
+}
+
+@mixin for-text-form {
+  font-family: "Gotham";
+  color: #2c4058;
+  font-size: calc(9px + (18 - 9) * ((100vw - 320px) / 1450));
+}
+
+@mixin for-footer-text {
+  font-family: "Gotham";
+  font-size: $fz-14;
+  font-weight: 400;
+  color: #ffffff;
+}
